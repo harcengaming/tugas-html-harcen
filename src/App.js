@@ -7,15 +7,12 @@ import Contents from './components/Contents';
 
 function App() {
 
-  
-  
   return (
     <div>
       <HeaderTop />  
       <Header/>
       <Contents />
       <Footer/>
-      
     </div>
     
   );

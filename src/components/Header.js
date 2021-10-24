@@ -1,6 +1,6 @@
 import React from 'react'
 import '../components/Header.css';
-import { Link, Router, Switch, Route } from 'react-router-dom'
+import { Link, Switch, Route } from 'react-router-dom'
 import Dokumentasi from './Dokumentasi';
 import ContentBiodata from './ContentBiodata';
 

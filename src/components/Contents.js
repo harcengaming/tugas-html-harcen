@@ -19,7 +19,7 @@ function Contents() {
     return (
         <div>
             <Moment></Moment>
-            {/* <Moment format="YYYY/MM/DD">{this.props.dateToFormat}</Moment> */}
+            
             <br />
             <Moment format='MMMM Do YYYY, h:mm:ss a'>{date}</Moment>
             <br />

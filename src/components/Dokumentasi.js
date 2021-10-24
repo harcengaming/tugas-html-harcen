@@ -11,12 +11,9 @@ function Dokumentasi() {
         <div>
             
             <header>
-        
-            
-            
-            <h1>Bagas Hary Cendekiawan</h1>
-            
-            
+  
+            <h1 className="judul namaku">Bagas Hary Cendekiawan</h1>
+ 
             <img
                     src={logo}
                     alt="Muka harcen"
@@ -24,16 +21,12 @@ function Dokumentasi() {
             />
             
             <br/>
-            
-            
-            
+ 
             <img 
                     src={logo3}
                     alt="banner-jrrp"
             />
-            
-            
-            
+  
             </header>
         </div>
     )
