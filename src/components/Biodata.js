@@ -1,15 +1,17 @@
 import React from 'react';
-import div from 'react-bootstrap';
-import logo2 from '../src/images/FOTO 4X6 MERAH.jpg';
+import logo2 from '../images/FOTO 4X6 MERAH.jpg';
+import '../components/Biodata.css'
 
 
-function Name() {
+function Biodata() {
+
+    const judul = 'biodata diriku'
 
     return (
         <div>
-            
+            <h1 className="text-left">{ judul.toUpperCase() }</h1>
             <>
-                <h3>{ 'data pribadi'.toUpperCase() }</h3>
+                <h3 className="data-pribadi">{ 'data pribadi'.toUpperCase() }</h3>
                 <table>
                     <tbody>
                         <tr>
@@ -105,4 +107,4 @@ function Name() {
     )
 };
 
-export default Name;
+export default Biodata;

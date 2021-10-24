@@ -1,0 +1,38 @@
+.text-cover {
+    font-size: 120px;
+    top: 10%;
+    color: #ffa500;
+    position: absolute;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.bg-utama {
+    background-position: center;
+    text-align: center;
+    /* height: 90%; */
+    width: 100%;
+    /* display: table; */
+    /* vertical-align: middle; */
+    /* position: relative; */
+  }
+
+ #image-div {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* align-content: center; */
+    justify-content: center;
+ } 
+
+ #image-div p{
+    font-size: 70px;
+    top: 109%;
+    color: #FF0000;
+    position: absolute;
+    /* align-items: center; */
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 500;
+ }
