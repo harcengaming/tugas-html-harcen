@@ -2,10 +2,7 @@
    #image-div img{
      max-width: 100%;
    }
-   #image-div p {
-      font-size: 5vw;
-      bottom: 550px;
-   }
+   
    .text-cover {
       width: 100%;
    }
@@ -48,8 +45,5 @@
     text-transform: capitalize;
     text-decoration: underline;
     font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
  
