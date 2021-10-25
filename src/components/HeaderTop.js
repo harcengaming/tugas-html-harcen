@@ -11,7 +11,8 @@ function HeaderTop() {
                     alt="wisata jakarta 60D canon"  
                 />
                 <h1 className="text-cover">{ 'Curriculum Vitae'.toUpperCase() }</h1>
-                <p>kami tuli, berbahasa isyarat indonesia!</p>
+                <br />
+                <p className="text-deskripsi">kami tuli, berbahasa isyarat indonesia!</p>
             </div>
         </div>
     )

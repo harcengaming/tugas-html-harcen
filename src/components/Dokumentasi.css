@@ -1,0 +1,18 @@
+@media only screen and (max-width: 700px) {
+    img {
+        width: 100%;
+    }
+}
+/* ============================================== */
+.judul-namaku {
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;  
+}
+
+.galleri {
+    display: flex;
+    justify-content: center;
+}

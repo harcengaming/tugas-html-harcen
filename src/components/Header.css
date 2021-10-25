@@ -19,9 +19,15 @@
 
 .navbar-bottom nav li{
     padding: 0px 10px;
+    text-decoration: none;
 }
 
 .navbar-bottom {
     position: static;
     width:100%; /*mengatur header supaya full width*/
+}
+
+.link-navbar-bottom {
+    text-decoration: none;
+    color: black;
 }

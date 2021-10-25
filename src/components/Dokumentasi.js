@@ -1,6 +1,6 @@
 import React from 'react'
+import '../components/Dokumentasi.css'
 import logo from '../images/710KB 1;1.jpg';
-import logo3 from '../images/pelatihanjasarahaja.png';
 
 function Dokumentasi() {
 
@@ -9,25 +9,15 @@ function Dokumentasi() {
 
     return (
         <div>
-            
-            <header>
   
-            <h1 className="judul namaku">Bagas Hary Cendekiawan</h1>
- 
-            <img
-                    src={logo}
-                    alt="Muka harcen"
-                    width={width}
-            />
-            
-            <br/>
- 
-            <img 
-                    src={logo3}
-                    alt="banner-jrrp"
-            />
-  
-            </header>
+            <h1 className="judul-namaku">Galleri</h1>
+            <div className="galleri">
+                <img
+                        src={logo}
+                        alt="Muka harcen"
+                        width={width}
+                />
+            </div>
         </div>
     )
 }

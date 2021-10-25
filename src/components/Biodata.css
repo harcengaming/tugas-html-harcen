@@ -1,3 +1,33 @@
+@media only screen and (max-width: 700px) {
+  table {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .posisi-kiri {
+    width: 94%;
+  }
+  .posisi-kanan {
+    margin-left: 25px;
+  }
+  .posisi-kanan-tr{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .text-left {
+    size: 100px;
+  }
+}
+
+/* ================================================= */
 .data-pribadi {
     text-align: center;
     padding-bottom: 10px;
@@ -8,17 +38,17 @@
     display: block; 
     border-radius: 10px; 
     border-color: black; 
-    margin-left: 55px; 
+    margin-left: 14px; 
     border: 10px;
   }
   
   .posisi-kanan {
-    margin-right: 10px;
+    margin-right: 60px;
     font-size: x-large;
   }
 
 .text-left {
-    margin-left: 60px;
+    margin-left: 25px;
     font-weight: bolder;
-    font-size: 100px;
+    font-size: 78px;
 }
