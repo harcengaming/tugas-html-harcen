@@ -25,7 +25,7 @@ function Footer() {
                     target='_blank'> Bagas Hary Cendekiawan </a>
             </footer>
             <nav>
-                <div>
+                <div className="icon-footer">
                     <a
                         href="https://www.instagram.com/harcengaming" 
                         rel='noreferrer'
@@ -37,7 +37,7 @@ function Footer() {
                         /> 
                     </a> 
                 </div>
-                <div>
+                <div className="icon-footer">
                     <a
                         href="https://www.facebook.com/harcengaming2" 
                         rel='noreferrer'
@@ -49,7 +49,7 @@ function Footer() {
                         /> 
                     </a> 
                 </div>
-                <div>
+                <div className="icon-footer" >
                     <a
                         href="https://www.twitter.com/harcengaming" 
                         rel='noreferrer'
@@ -61,7 +61,7 @@ function Footer() {
                         /> 
                     </a> 
                 </div>
-                <div>
+                <div className="icon-footer">
                     <a
                         href="https://www.youtube.com/c/bagasvergil" 
                         rel='noreferrer'
@@ -73,7 +73,7 @@ function Footer() {
                         /> 
                     </a> 
                 </div>
-                <div>
+                <div className="icon-footer">
                     <a
                         href="https://www.github.com/harcengaming" 
                         rel='noreferrer'
@@ -85,7 +85,7 @@ function Footer() {
                         /> 
                     </a> 
                 </div>
-                <div>
+                <div className="icon-footer">
                     <a
                         href="https://wa.me/6285740283454" 
                         rel='noreferrer'
@@ -97,7 +97,7 @@ function Footer() {
                         /> 
                     </a> 
                 </div> 
-                <div>
+                <div className="icon-footer">
                     <a
                         href="https://docs.microsoft.com/id-id/users/harcengaming/" 
                         rel='noreferrer'

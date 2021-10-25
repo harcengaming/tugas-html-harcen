@@ -1,8 +1,15 @@
+@media only screen and (max-width: 700px) {
+    .navbar-bottom nav {
+        width: fit-content;
+    }
+}
+
+/* ======================================================= */
 .navbar-bottom nav{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: space-between;
     justify-content: flex-end;
     align-items: center;

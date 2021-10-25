@@ -1,6 +1,18 @@
-.text-cover {
-    font-size: 120px;
-    top: 10%;
+@media only screen and (max-width: 700px) {
+   #image-div img{
+     max-width: 100%;
+   }
+   #image-div p{
+      top: 232px;
+    }
+   .text-cover {
+      width: 100%;
+   }
+}  
+ /* ========================================================== */
+ .text-cover {
+    font-size: 9vw;
+    top: 4%;
     color: #ffa500;
     position: absolute;
     /* align-items: center; */
@@ -14,7 +26,7 @@
     width: 100%;
     /* display: table; */
     /* vertical-align: middle; */
-    /* position: relative; */
+    position: relative;
   }
 
  #image-div {
@@ -26,13 +38,13 @@
  } 
 
  #image-div p{
-    font-size: 70px;
-    top: 109%;
+    font-size: 5vw;
     color: #FF0000;
     position: absolute;
-    /* align-items: center; */
     text-align: center;
     text-transform: capitalize;
     text-decoration: underline;
     font-weight: 500;
+    width: 100%;
+    bottom: -200px;
  }
