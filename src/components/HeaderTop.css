@@ -2,9 +2,9 @@
    #image-div img{
      max-width: 100%;
    }
-   .text-deskripsi {
+   #image-div p {
       font-size: 5vw;
-      bottom: 450px;
+      bottom: 550px;
    }
    .text-cover {
       width: 100%;
