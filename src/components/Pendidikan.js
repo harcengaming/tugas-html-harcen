@@ -17,61 +17,75 @@ import myclass3 from '../assets/myclass-smk3.jpg'
 function Pendidikan() {
     return (
         <div>
-            {/* <div class="card mb-3">
-                
-                <div class="card-body">
-                    <h5 class="card-title">SDLB/B Karya Bakti Wonosobo</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                <img src={sdlb} class="card-img-top" alt="..." />
-            </div> */}
-
             {/*  SMA Negeri 1 Candiroto */}
-            <div id="carouselExampleCaptions" class="carousel slide border border-5 border-warning rounded-3" 
+            <div id="myclass-smanca" class="carousel slide border border-5 border-warning rounded-3" 
                 data-bs-ride="carousel" >
 
+                <div class="">
+                    <div class="card-body">
+                        <h5 class="card-title">SMA Negeri 1 Candiroto</h5>
+                        <p class="card-text">Tahun 2017 - 2020</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>    
+                </div>
+                    
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#myclass-smanca" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myclass-smanca" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myclass-smanca" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src={smanca} class="d-block w-100 " alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>SMA Negeri 1 Candiroto</h5>
-                        <p>Tahun 2017 - 2020</p>
-                    </div>
+                        <img src={smanca} class="d-block w-100 " alt="..." />
+                        <div class="carousel-caption d-none d-md-block " > 
+                            <a href="https://sman1candiroto.sch.id/" target="_blank" >
+                                <h5 class="btn btn-outline-warning">SMA Negeri 1 Candiroto</h5>
+                            </a>
+                            <br />
+                            <p class="btn btn-outline-warning" >Tahun 2017 - 2020  </p>
+                        </div>
                     </div>
                     <div class="carousel-item">
                     <img src={ipa} class="d-block w-100 " alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>XII IPA 4</h5>
-                        <p>Tahun 2017 - 2020</p>
+                        <h5 class="btn btn-outline-warning">XII IPA 4</h5>
+                        <br />
+                        <p class="btn btn-outline-warning">Tahun 2017 - 2020</p>
                     </div>
                     </div>
                     <div class="carousel-item">
                     <img src={ipa2} class="d-block w-100" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>XII IPA 4</h5>
-                        <p>Tahun 2017 - 2020</p>
+                        <h5 class="btn btn-outline-warning">XII IPA 4</h5>
+                        <br />
+                        <p class="btn btn-outline-warning">Tahun 2017 - 2020</p>
                     </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myclass-smanca" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <button class="carousel-control-next" type="button" data-bs-target="#myclass-smanca" data-bs-slide="next">
+                    <span class="carousel-control-next-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
 
             {/* SMK PIUS X Magelang */}
-            <div id="carouselExampleControlsNoTouching" class="carousel slide border border-5 border-warning rounded-3" 
+            <div id="myclass-smkpius" class="carousel slide border border-5 border-warning rounded-3" 
             data-bs-touch="false" data-bs-interval="false">
+
+                <div class="">
+                    <div class="card-body">
+                        <a href="https://smk-mgl.tarakanita.sch.id/" target="_blank" className="card-title">
+                            <h5 class="card-title">SMK PIUS X Magelang</h5>
+                        </a>
+                        <p class="card-text">Tahun 2016</p>
+                        <p class="card-text"><small class="text-muted">Last updated 13 mins ago</small></p>
+                    </div>    
+                </div>
+
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                     <img src={smk} class="d-block w-100" alt="..." />
@@ -86,20 +100,29 @@ function Pendidikan() {
                     <img src={myclass3} class="d-block w-100" alt="..." />
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myclass-smkpius" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <button class="carousel-control-next" type="button" data-bs-target="#myclass-smkpius" data-bs-slide="next">
+                    <span class="carousel-control-next-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
 
              {/*  SMPLB Karya Bakti Wonosobo */}
-             <div id="smplb-karya" class="carousel carousel-dark slide border border-5 border-warning rounded-3"
+             <div id="smplb-karya" class="carousel carousel-orange slide border border-5 border-warning rounded-3"
               data-bs-ride="carousel">
-                <div class="carousel-indicators">
+
+                <div class="">
+                    <div class="card-body">
+                        <h5 class="card-title">SLB/B Karya Bakti Wonosobo</h5>
+                        <p class="card-text">Tahun 2013 - 2016</p>
+                        <p class="card-text"><small class="text-muted">Last updated 36 mins ago</small></p>
+                    </div>    
+                </div>
+
+                <div class="carousel-indicators ">
                     <button type="button" data-bs-target="#smplb-karya" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#smplb-karya" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#smplb-karya" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -108,38 +131,52 @@ function Pendidikan() {
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img src={db2} class="card-img-top" alt="..." />
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>SLB/B Karya Bakti Wonosobo</h5>
-                            <p>Tahun 2013 - 2016</p>
+                            <a href="https://donboscolabtik.blogspot.com/" target="_blank" >
+                                <h5 class="btn btn-outline-warning">SLB/B Karya Bakti Wonosobo</h5>
+                            </a> 
+                            <br />
+                            <p class="btn btn-outline-warning">Tahun 2013 - 2016</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src={smplb} class="d-block w-100" alt="..." />
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>SMPLB/B Karya Bakti Wonosobo</h5>
-                            <p>Tahun 2013 - 2016</p>
+                            <h5 class="btn btn-outline-warning">SMPLB/B Karya Bakti Wonosobo</h5>
+                            <br />
+                            <p class="btn btn-outline-warning">Tahun 2013 - 2016</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src={smplb2} class="d-block w-100" alt="..." />
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>SMPLB/B Karya Bakti Wonosobo</h5>
-                            <p>Tahun 2013 - 2016</p>
+                            <h5 class="btn btn-outline-warning">SMPLB/B Karya Bakti Wonosobo</h5>
+                            <br />
+                            <p class="btn btn-outline-warning">Tahun 2013 - 2016</p>
                         </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#smplb-karya" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#smplb-karya" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
 
             {/*  SDLB Karya Bakti Wonosobo */}
-            <div id="sdlb-karya" class="carousel carousel-dark slide border border-5 border-warning rounded-3" 
+            <div id="sdlb-karya" class="carousel carousel-orange slide border border-5 border-warning rounded-3" 
             data-bs-ride="carousel">
+                
+                <div class="">
+                    <div class="card-body">
+                        <h5 class="card-title">SLB/B Karya Bakti Wonosobo</h5>
+                        <p class="card-text">Tahun 2007 - 2013</p>
+                        <p class="card-text"><small class="text-muted">Last updated 36 mins ago</small></p>
+                    </div>    
+                </div>
+
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#sdlb-karya" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#sdlb-karya" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -149,31 +186,36 @@ function Pendidikan() {
                     <div class="carousel-item active" data-bs-interval="10000">
                     <img src={db} class="d-block w-100" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>SLB/B Karya Bakti Wonosobo</h5>
-                        <p>Tahun 2007 - 2013</p>
+                        <a href="https://donboscolabtik.blogspot.com/" target="_blank" >
+                            <h5 class="btn btn-outline-warning">SLB/B Karya Bakti Wonosobo</h5>
+                        </a>
+                        <br />
+                        <p class="btn btn-outline-warning">Tahun 2007 - 2013</p>
                     </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                     <img src={sdlb} class="d-block w-100" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>SDLB/B Karya Bakti Wonosobo</h5>
-                        <p>Tahun 2007 - 2013</p>
+                        <h5 class="btn btn-outline-warning">SDLB/B Karya Bakti Wonosobo</h5>
+                        <br />
+                        <p class="btn btn-outline-warning">Tahun 2007 - 2013</p>
                     </div>
                     </div>
                     <div class="carousel-item" >
                     <img src={sdlb2} class="d-block w-100" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>SDLB/B Karya Bakti Wonosobo</h5>
-                        <p>Tahun 2007 - 2013</p>
+                        <h5 class="btn btn-outline-warning">SDLB/B Karya Bakti Wonosobo</h5>
+                        <br />
+                        <p class="btn btn-outline-warning">Tahun 2007 - 2013</p>
                     </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#sdlb-karya" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#sdlb-karya" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>

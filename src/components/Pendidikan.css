@@ -1,8 +1,17 @@
 .carousel-caption h5, p {
-    background-color: beige;
-    color: black;
+    /* background-color: white; */
+    color: #ffa500;  
 }
+
  .carousel {
-     margin: 1%;
+     margin: 2%;
  }
 
+ .card-text {
+     color: black;
+ }
+
+ .card-title {
+     text-decoration: none;
+     color: #ffa500;
+ }
