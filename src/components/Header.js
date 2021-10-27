@@ -4,6 +4,7 @@ import { Link, Switch, Route } from 'react-router-dom'
 import Dokumentasi from './Dokumentasi';
 import ContentBiodata from './ContentBiodata';
 import Portofolio from './Portofolio';
+import Pendidikan from './Pendidikan';
 
 function Header() {
     return (
@@ -35,6 +36,9 @@ function Header() {
                     <Route path="/biodata">
                         <ContentBiodata />
                     </Route>
+                    <Route path="/pendidikan">
+                        <Pendidikan />
+                    </Route>
                     <Route path="/portofolio">
                         <Portofolio />
                     </Route>
@@ -43,8 +47,7 @@ function Header() {
                     </Route>
                 </Switch>
                 
-            </div>
-        
+            </div> 
     )
 }
 
