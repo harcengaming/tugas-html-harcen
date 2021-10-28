@@ -17,6 +17,7 @@ import myclass3 from '../assets/myclass-smk3.jpg'
 function Pendidikan() {
     return (
         <div>
+            <h1 class="display-1">Pendidikan Formal</h1>
             {/*  SMA Negeri 1 Candiroto */}
             <div id="myclass-smanca" class="carousel slide border border-5 border-warning rounded-3" 
                 data-bs-ride="carousel" >

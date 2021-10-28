@@ -9,7 +9,7 @@ function Biodata() {
 
     return (
         <div className="biodataku">
-            <h1 className="text-left">{ judul.toUpperCase() }</h1>
+            <h1 className="display-1">{ judul.toUpperCase() }</h1>
             <>
                 <h3 className="data-pribadi">{ 'data pribadi'.toUpperCase() }</h3>
                 <table>

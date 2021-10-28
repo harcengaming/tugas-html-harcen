@@ -1,3 +1,9 @@
+.display-1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffa500;
+}
+
 .carousel-caption h5, p {
     /* background-color: white; */
     color: #ffa500;  
