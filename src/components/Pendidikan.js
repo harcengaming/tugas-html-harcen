@@ -23,7 +23,10 @@ function Pendidikan() {
 
                 <div class="">
                     <div class="card-body">
-                        <h5 class="card-title">SMA Negeri 1 Candiroto</h5>
+                        <a href="https://sman1candiroto.sch.id/" target="_blank" rel="noreferrer" 
+                            class="card-title" >
+                            <h5 class="card-title">SMA Negeri 1 Candiroto</h5>
+                        </a>
                         <p class="card-text">Tahun 2017 - 2020</p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>    
@@ -38,7 +41,7 @@ function Pendidikan() {
                     <div class="carousel-item active">
                         <img src={smanca} class="d-block w-100 " alt="..." />
                         <div class="carousel-caption d-none d-md-block " > 
-                            <a href="https://sman1candiroto.sch.id/" target="_blank" >
+                            <a href="https://sman1candiroto.sch.id/" target="_blank" rel="noreferrer" >
                                 <h5 class="btn btn-outline-warning">SMA Negeri 1 Candiroto</h5>
                             </a>
                             <br />
@@ -62,11 +65,13 @@ function Pendidikan() {
                     </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myclass-smanca" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#myclass-smanca" 
+                data-bs-slide="prev">
                     <span class="carousel-control-prev-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myclass-smanca" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#myclass-smanca" 
+                data-bs-slide="next">
                     <span class="carousel-control-next-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -78,7 +83,8 @@ function Pendidikan() {
 
                 <div class="">
                     <div class="card-body">
-                        <a href="https://smk-mgl.tarakanita.sch.id/" target="_blank" className="card-title">
+                        <a href="https://smk-mgl.tarakanita.sch.id/" target="_blank" rel="noreferrer"
+                            className="card-title">
                             <h5 class="card-title">SMK PIUS X Magelang</h5>
                         </a>
                         <p class="card-text">Tahun 2016</p>
@@ -116,7 +122,10 @@ function Pendidikan() {
 
                 <div class="">
                     <div class="card-body">
-                        <h5 class="card-title">SLB/B Karya Bakti Wonosobo</h5>
+                        <a href="https://donboscolabtik.blogspot.com/" target="_blank" rel="noreferrer"
+                            class="card-title">
+                            <h5 class="card-title">SLB/B Karya Bakti Wonosobo</h5>
+                        </a>
                         <p class="card-text">Tahun 2013 - 2016</p>
                         <p class="card-text"><small class="text-muted">Last updated 36 mins ago</small></p>
                     </div>    
@@ -131,7 +140,7 @@ function Pendidikan() {
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img src={db2} class="card-img-top" alt="..." />
                         <div class="carousel-caption d-none d-md-block">
-                            <a href="https://donboscolabtik.blogspot.com/" target="_blank" >
+                            <a href="https://donboscolabtik.blogspot.com/" target="_blank" rel="noreferrer">
                                 <h5 class="btn btn-outline-warning">SLB/B Karya Bakti Wonosobo</h5>
                             </a> 
                             <br />
@@ -155,11 +164,13 @@ function Pendidikan() {
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#smplb-karya" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#smplb-karya" 
+                data-bs-slide="prev">
                     <span class="carousel-control-prev-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#smplb-karya" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#smplb-karya" 
+                data-bs-slide="next">
                     <span class="carousel-control-next-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -171,7 +182,10 @@ function Pendidikan() {
                 
                 <div class="">
                     <div class="card-body">
-                        <h5 class="card-title">SLB/B Karya Bakti Wonosobo</h5>
+                        <a href="https://donboscolabtik.blogspot.com/" target="_blank" rel="noreferrer"
+                            class="card-title">
+                            <h5 class="card-title">SLB/B Karya Bakti Wonosobo</h5>
+                        </a>
                         <p class="card-text">Tahun 2007 - 2013</p>
                         <p class="card-text"><small class="text-muted">Last updated 36 mins ago</small></p>
                     </div>    
@@ -186,7 +200,7 @@ function Pendidikan() {
                     <div class="carousel-item active" data-bs-interval="10000">
                     <img src={db} class="d-block w-100" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <a href="https://donboscolabtik.blogspot.com/" target="_blank" >
+                        <a href="https://donboscolabtik.blogspot.com/" target="_blank" rel="noreferrer">
                             <h5 class="btn btn-outline-warning">SLB/B Karya Bakti Wonosobo</h5>
                         </a>
                         <br />
@@ -210,11 +224,13 @@ function Pendidikan() {
                     </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#sdlb-karya" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#sdlb-karya" 
+                data-bs-slide="prev">
                     <span class="carousel-control-prev-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#sdlb-karya" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#sdlb-karya" 
+                data-bs-slide="next">
                     <span class="carousel-control-next-icon btn btn-outline-warning" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
