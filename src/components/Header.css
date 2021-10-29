@@ -17,6 +17,10 @@
     background-color: #ffa500;
 }
 
+.nav-kiri {
+    background-color: #ffa500;
+}
+
 .navbar-bottom nav li{
     padding: 0px 10px;
     text-decoration: none;
@@ -25,6 +29,13 @@
 .navbar-bottom {
     position: static;
     width:100%; /*mengatur header supaya full width*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffa500;
 }
 
 .link-navbar-bottom {

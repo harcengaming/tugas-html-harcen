@@ -7,12 +7,23 @@ import Portofolio from './Portofolio';
 import Pendidikan from './Pendidikan';
 import PendidikanInformal from './PendidikanInformal';
 import Pengalaman from './Pengalaman';
+import Sertifikat from './Sertifikat';
+import Beranda from './Beranda';
+
 
 function Header() {
     return (
         
             <div>
                 <div className="navbar-bottom" >
+                    <nav className="nav-kiri">
+                        <li>
+                            <Link className="link-navbar-bottom" to="/">Daftar</Link>
+                        </li>
+                        <li>
+                            <Link className="link-navbar-bottom" to="/">Masuk</Link>
+                        </li>
+                    </nav>
                     <nav>
                         <li>
                             <Link className="link-navbar-bottom" to="/">Beranda</Link>
@@ -37,15 +48,31 @@ function Header() {
                         <li>
                             <Link className="link-navbar-bottom" to="./pengalaman">Pengalaman</Link>
                         </li>
-                        <li>
-                            <Link className="link-navbar-bottom" to="./portofolio">Portofolio</Link>
-                        </li>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-danger">Portofolio</button>
+                            <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" 
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li>
+                                    <Link className="dropdown-item btn btn-danger" 
+                                    to="./portofolio">Prestasi</Link>
+                                    <Link className="dropdown-item btn btn-danger" 
+                                    to="./sertifikat">Sertifikat</Link>
+                                </li>
+                            </ul>
+                        </div>                    
                         <li>
                             <Link className="link-navbar-bottom" to="./dokumentasi">Dokumentasi</Link>
                         </li>
-                    </nav>
+                    </nav>  
                 </div>
+
                 <Switch>
+                    <Route exact path="/" >
+                        <Beranda />
+                    </Route>
                     <Route path="/biodata">
                         <ContentBiodata />
                     </Route>
@@ -60,6 +87,9 @@ function Header() {
                     </Route>
                     <Route path="/portofolio">
                         <Portofolio />
+                    </Route>
+                    <Route path="/sertifikat">
+                        <Sertifikat />
                     </Route>
                     <Route path="/dokumentasi">
                         <Dokumentasi />

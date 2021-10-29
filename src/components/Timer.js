@@ -2,12 +2,12 @@ import React from 'react'
 import Moment from 'react-moment';
 import 'moment-timezone'; 
 import { useState, useEffect } from 'react';
-import '../components/Contents.css'
+import '../components/Timer.css'
 import { ReactComponent as ClockIcon } from '../images/clock.svg';
 import { ReactComponent as CalenderIcon } from '../images/calendar.svg';
 
 
-function Contents() {
+function Timer() {
 
     const date = new Date();
     
@@ -57,4 +57,4 @@ function Contents() {
     )
 }
 
-export default Contents
+export default Timer
